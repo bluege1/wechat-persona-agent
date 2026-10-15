@@ -54,3 +54,71 @@ config.local.yaml
 # ══════════════════════════════════════════════════════
 驱动/
 VBCable/
+
+# ══════════════════════════════════════════════════════
+#  Python 通用产物（合并自 GitHub 官方 Python 模板）
+#  上面那些是**这个项目特有**的；这里是任何 Python 项目都会遇到的
+#  编译产物 / 构建输出 / 测试缓存 / IDE 配置 —— 留着，以后加依赖、
+#  跑测试、或用 IDE 打开时，不会弄脏工作区。
+# ══════════════════════════════════════════════════════
+
+# 编译产物
+*.so
+*.egg
+MANIFEST
+*.manifest
+*.spec
+
+# 构建 / 打包输出
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+sdist/
+wheels/
+.installed.cfg
+
+# 测试 / 覆盖率
+.pytest_cache/
+.tox/
+.nox/
+.hypothesis/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+nosetests.xml
+*.cover
+*.lcov
+
+# 类型检查 / 格式化缓存
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Notebook
+.ipynb_checkpoints
+
+# 编辑器 / IDE
+.idea/
+.vscode/
+.spyderproject
+.spyproject
+.ropeproject
+tempCodeRunnerFile.py
+
+# 环境 / 本地配置补充
+.envrc
+ENV/
+env.bak/
+venv.bak/
+.pypirc
+local_settings.py
+
+# 其他
+__pypackages__/
