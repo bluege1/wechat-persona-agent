@@ -1,0 +1,19 @@
+# 微信人设机器人 · 依赖清单
+# 由源码 import 反推（不用手工维护）。装法见 使用说明.txt，或直接双击 0-装依赖.bat。
+#
+# ★ rapidocr-onnxruntime 只支持 Python 3.10 ~ 3.12，不支持 3.13+。
+#   0-装依赖.bat / 一键启动.bat 会按 3.12 → 3.11 → 3.10 优选解释器。
+
+uiautomation>=2.0.18
+requests>=2.31.0
+edge-tts>=6.1.12
+PyYAML>=6.0.1
+Pillow>=10.0.0
+
+# OCR / 读图那条链（rapidocr）—— 下面几个是它真正要的，别省：
+rapidocr-onnxruntime>=1.4.0
+numpy>=1.24
+opencv-python>=4.8
+
+# 声卡：audio_device.py 靠它调 Windows 音频设备
+comtypes>=1.2.0

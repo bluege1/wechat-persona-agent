@@ -1,0 +1,26 @@
+{
+  "first": "2026-10-15",
+  "turns": 0,
+  "first_msg": "",
+  "intimacy": 0.0,
+  "peak": 0.0,
+  "stage": 1,
+  "stage_since": "2026-10-15",
+  "daily": {},
+  "last": "",
+  "confess": {
+    "tried": 0,
+    "hinted_from": null,
+    "hint_level": 0,
+    "last_try": null,
+    "refused": 0,
+    "gave_up": false,
+    "despair_until": null,
+    "despair_mild": false,
+    "lover_since": null,
+    "refuse_note": "",
+    "asked": null,
+    "await_answer": null
+  },
+  "last_chat": ""
+}
