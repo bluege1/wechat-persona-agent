@@ -1,0 +1,19 @@
+# 本项目的默认发送服务配置。主程序通过 HTTP 连接，不需要 WebSocket 上游。
+ws:
+  enabled: false
+  url: "ws://127.0.0.1:1234/ws"
+
+http:
+  enabled: true
+  host: "127.0.0.1"
+  port: 9877
+
+# 不移动用户的鼠标指针。
+wanderer:
+  enabled: false
+  min_interval: 10.0
+  max_interval: 30.0
+  times_min: 1
+  times_max: 3
+
+log_level: "INFO"
